@@ -1,0 +1,53 @@
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+p {
+  margin-top: 10px;
+  color: var(--text-color);
+}
+
+.form-control {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--neutral-color);
+}
+
+.form-control::placeholder {
+  color: var(--neutral-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}

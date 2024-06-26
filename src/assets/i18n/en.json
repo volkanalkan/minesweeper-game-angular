@@ -1,0 +1,37 @@
+{
+  "HOME": {
+    "TITLE": "Welcome to MineZone",
+    "DESCRIPTION": "MineZone is a classic Minesweeper game. Your goal is to clear a rectangular board containing hidden \"mines\" or bombs without detonating any of them, with the help of clues about the number of neighboring mines in each field.",
+    "HOW_TO_PLAY": "How to Play",
+    "RULES": [
+      "Select a difficulty level: Easy (8x8) or Hard (16x16).",
+      "Click on cells to reveal them. If you reveal a mine, the game is over.",
+      "Numbers on revealed cells show how many mines are adjacent to that cell.",
+      "Right-click (or long-press on mobile) on cells to place flags on suspected mines.",
+      "Clear all non-mine cells to win the game."
+    ],
+    "GAME_CONTROLS": "Game Controls",
+    "CONTROLS": [
+      "Left-click on a cell to reveal it.",
+      "Right-click on a cell to toggle a flag.",
+      "Reset button to start a new game."
+    ],
+    "ENJOY": "Have fun and try to clear the board without hitting any mines!"
+  },
+  "CONTACT": {
+    "TITLE": "Contact Me",
+    "DESCRIPTION": "If you have any questions or comments, feel free to reach out to me using the contact information below:",
+    "NAME": "Name: Volkan Alkan",
+    "PHONE": "Phone: +90 531 428 9738",
+    "EMAIL": "Email: volkanalkan2001@hotmail.com",
+    "LOCATION": "Location: Istanbul, Turkey"
+  },
+  "NAVBAR": {
+    "HOME": "Home",
+    "PLAY": "Play",
+    "CONTACT": "Contact Me",
+    "LOGIN": "Login",
+    "SIGNUP": "Signup",
+    "LOGOUT": "Logout"
+  }
+}

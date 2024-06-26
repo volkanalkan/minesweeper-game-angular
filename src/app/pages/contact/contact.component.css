@@ -1,0 +1,38 @@
+.contact-container {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+.contact-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.contact-info {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+#map-container {
+  width: 100%;
+  height: 300px;
+  background-color: #ddd;
+  margin-top: 20px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

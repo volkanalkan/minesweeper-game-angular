@@ -1,0 +1,37 @@
+{
+  "HOME": {
+    "TITLE": "MineZone'a Hoşgeldiniz",
+    "DESCRIPTION": "MineZone, klasik bir Mayın Tarlası oyunudur. Amacınız, komşu mayınların sayısı hakkındaki ipuçlarıyla, patlatmadan gizli 'mayınları' veya bombaları içeren dikdörtgen bir tahtayı temizlemektir.",
+    "HOW_TO_PLAY": "Nasıl Oynanır",
+    "RULES": [
+      "Bir zorluk seviyesi seçin: Kolay (8x8) veya Zor (16x16).",
+      "Hücreleri açmak için tıklayın. Bir mayını açarsanız, oyun biter.",
+      "Açılan hücrelerdeki sayılar, o hücreye bitişik kaç mayın olduğunu gösterir.",
+      "Şüpheli mayınlar üzerine bayrak koymak için hücrelere sağ tıklayın (mobilde uzun basın).",
+      "Tüm mayınsız hücreleri temizleyin ve oyunu kazanın."
+    ],
+    "GAME_CONTROLS": "Oyun Kontrolleri",
+    "CONTROLS": [
+      "Bir hücreyi açmak için sol tıklayın.",
+      "Bir hücreye bayrak koymak için sağ tıklayın.",
+      "Yeni bir oyuna başlamak için sıfırlama düğmesi."
+    ],
+    "ENJOY": "Mayınlara çarpmadan tahtayı temizlemeye çalışın ve eğlenin!"
+  },
+  "CONTACT": {
+    "TITLE": "Bana Ulaşın",
+    "DESCRIPTION": "Herhangi bir sorunuz veya yorumunuz varsa, aşağıdaki iletişim bilgilerini kullanarak bana ulaşabilirsiniz:",
+    "NAME": "İsim: Volkan Alkan",
+    "PHONE": "Telefon: +90 531 428 9738",
+    "EMAIL": "E-posta: volkanalkan2001&#64;hotmail.com",
+    "LOCATION": "Konum: İstanbul, Türkiye"
+  },
+  "NAVBAR": {
+    "HOME": "Ana Sayfa",
+    "PLAY": "Oyna",
+    "CONTACT": "Bana Ulaşın",
+    "LOGIN": "Giriş Yap",
+    "SIGNUP": "Kaydol",
+    "LOGOUT": "Çıkış Yap"
+  }
+}

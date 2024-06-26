@@ -1,0 +1,104 @@
+.navbar {
+  background-color: #343a40 !important;
+  border-bottom: 3px solid #ffc107;
+}
+
+.navbar-brand .logo {
+  height: 40px;
+}
+
+.nav-link {
+  color: #ffc107 !important;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.btn-outline-light {
+  border-color: #ffc107;
+  color: #ffc107;
+  margin-left: 10px;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffc107;
+  color: #343a40;
+}
+
+.dropdown-menu {
+  background-color: #343a40;
+  border: none;
+}
+
+.dropdown-item {
+  color: #ffc107;
+}
+
+.dropdown-item:hover {
+  background-color: #ffc107;
+  color: #343a40;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 20px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #ffc107;
+}
+
+input:checked + .slider:before {
+  transform: translateX(14px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.fas.fa-globe {
+  font-size: 1.5rem;
+  color: #ffc107;
+  margin-right: 15px;
+}
+
+.navbar .logo {
+  height: 50px;
+}

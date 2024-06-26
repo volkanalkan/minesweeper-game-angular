@@ -1,1 +1,96 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+  font-weight: bold;
+  color: var(--heading-color);
+}
+
+:root {
+  --primary-color: #364f6b;
+  --secondary-color: #3fc1c9;
+  --accent-color: #fc5185;
+  --neutral-color: #c5c5c5;
+  --background-color: #f7f7f7;
+  --text-color: #333;
+  --heading-color: #364f6b;
+  --button-color: #ffc107;
+  --button-hover-color: #ffb300;
+  --link-color: #ffc107;
+  --link-hover-color: #ffb300;
+}
+
+body.dark-theme {
+  --primary-color: #1d1d1d;
+  --secondary-color: #292929;
+  --accent-color: #505050;
+  --neutral-color: #707070;
+  --background-color: #1d1d1d;
+  --text-color: #f7f7f7;
+  --heading-color: #f7f7f7;
+  --button-color: #ffc107;
+  --button-hover-color: #ffb300;
+  --link-color: #ffc107;
+  --link-hover-color: #ffb300;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.mat-toolbar {
+  background-color: var(--primary-color) !important;
+}
+
+.mat-button {
+  color: var(--accent-color) !important;
+}
+
+.card {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--neutral-color);
+}
+
+.form-control {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--neutral-color);
+}
+
+.form-control::placeholder {
+  color: var(--neutral-color);
+}
+
+.btn-primary {
+  background-color: var(--button-color);
+  border-color: var(--button-color);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: var(--button-hover-color);
+  border-color: var(--button-hover-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}

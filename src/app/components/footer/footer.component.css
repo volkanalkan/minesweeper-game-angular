@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--background-color);
+  color: #343a40;
+  padding: 1rem 0;
+  border-top: 3px solid transparent;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+body.dark-mode .footer {
+  background-color: #343a40;
+}
